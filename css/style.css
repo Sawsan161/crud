@@ -1,0 +1,29 @@
+
+
+h1 {
+    font-family: Pacifico;
+    position: relative;
+    width: fit-content;
+}
+h1::before {
+    color: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    background-color: #fec260;
+    z-index:-1;
+}
+
+.box {
+    border-style: dotted;
+    border-color:#352e28 ;
+}
+.btn-submit {
+    background-color: #d1512d;
+}
+td button {
+    background-color: #8a9e23;
+}
+td button fa-eye {
+    color: #8a9e23;
+}
